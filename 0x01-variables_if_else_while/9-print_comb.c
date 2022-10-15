@@ -11,7 +11,11 @@ for (i = 48; i <= 57; i++)
 {
 putchar(i);
 putchar(',');
-putchar('\t');
+if (i == 57)
+{
+continue;
+}
+putchar(' ');
 }
 putchar('\n');
 return (0);
