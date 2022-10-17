@@ -20,7 +20,7 @@ if (i == j)
 {
 continue;
 }
-if (i == '56' && j == '57')
+if (i == 56 && j == 57)
 {
 break;
 }
