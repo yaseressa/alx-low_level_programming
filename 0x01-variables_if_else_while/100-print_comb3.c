@@ -13,9 +13,12 @@ for (j = 48; j <= 57; j++)
 {
 putchar(i);
 putchar(j);
-if (i != 57 && j != 57)
+if (i != 57)
+{
+if (j != 57)
 {
 putchar(',');
+}
 }
 }
 }
