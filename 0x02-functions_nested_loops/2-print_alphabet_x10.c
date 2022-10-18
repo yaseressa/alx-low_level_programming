@@ -3,7 +3,7 @@
  *main-program entry point.
  *Return:0 if no error, non-zero value if error.
  */
-void print_alphabet_x10.c(void)
+void print_alphabet_x10(void)
 {
 int j;
 for (j = 0; j < 10; j++)
