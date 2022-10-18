@@ -3,13 +3,11 @@
  *main-program entry point.
  *Return:0 if no error, non-zero value if error.
  */
-void print_alphabet(void)
+int _islower(int c)
 {
-int i;
-for (i = 97; i <= 127; i++)
+if (c >= 97 && c <= 122)
 {
-_putchar(i);
+return (1);
 }
-_putchar('\n');
-return (0);
+return(0);
 }

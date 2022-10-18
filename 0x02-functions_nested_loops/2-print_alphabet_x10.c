@@ -1,10 +1,19 @@
 #include "main.h"
 /**
- * main - check the code.
- * Return: Always 0.
+ *main-program entry point.
+ *Return:0 if no error, non-zero value if error.
  */
-int main(void)
+void print_alphabet_x10.c(void)
 {
-print_alphabet_x10();
-return (0);
+int j;
+for (j = 0; j < 10; j++)
+{
+int i;
+for (i = 97; i <= 127; i++)
+{
+_putchar(i);
+}
+}
+_putchar('\n');
+return;
 }
