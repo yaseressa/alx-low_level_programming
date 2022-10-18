@@ -1,12 +1,19 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
+#include <unistd.h>
 /**
  *main-program entry point.
  *Return:0 if no error, non-zero value if error.
  */
+int _putchar(char c)
+{
+return (write(1, &c, 1));
+}
 int main(void)
 {
-printf("_putchar");
-putchar('\n');
+char s[] = "_putchar";
+for (i = 0; i <= 7; i++)
+{
+_putchar(i);
+}
+_putchar('\n');
+return (0);
 }
