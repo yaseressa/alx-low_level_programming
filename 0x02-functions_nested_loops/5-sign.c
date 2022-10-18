@@ -1,7 +1,8 @@
 #include "main.h"
 /**
- *print_sign - Entry point.
- *Return:0 if no error, non-zero value if error.
+ * _islower - checks for lowercase character
+ * @c: the character to check
+ * Return: 1 if c is lowercase, 0 otherwise
  */
 int print_sign(int n)
 {
@@ -18,6 +19,6 @@ return (0);
 else
 {
 _putchar('-');
-return(-1);
+return (-1);
 }
 }
