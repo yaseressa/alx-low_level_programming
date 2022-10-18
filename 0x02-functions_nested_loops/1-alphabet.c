@@ -1,12 +1,12 @@
 #include "main.h"
 /**
- *main-program entry point.
- *Return:0 if no error, non-zero value if error.
+ *print_alphabet - Entry point.
+ *Return:0
  */
 void print_alphabet(void)
 {
 int i;
-for (i = 97; i <= 127; i++)
+for (i = 97; i <= 122; i++)
 {
 _putchar(i);
 }
